@@ -11,12 +11,14 @@
 
     <!-- Aqui é o espaço do JavaScript -->
     <script>
-        
+    
+
 /*1. Bem-vindo ao Sistema
 
 let nomeUsuario = prompt("Qual seu nome?")
 alert ("Bem-vindo ao sistema!")
 */
+
 
 /*2. Calculadora simples
  let numero1 = Number (prompt("Insira o número 1:"))
@@ -25,6 +27,7 @@ alert ("Bem-vindo ao sistema!")
  alert ("O resultado da soma é " + (numero1 + numero2) +".")
 */
 
+
 /*3. Descubra sua Idade
 
 let anoNascimento = Number (prompt("Insira ano do seu nascimento:"))
@@ -32,6 +35,7 @@ let anoAtual =  Number (prompt("Insira ano atual:"))
 
 alert ("Você tem " + (anoAtual - anoNascimento) + " anos.")
 */
+
 
 /*4. Loja de Sorvetes
 let quantidadeSorvetes = Number (prompt("Senhor, o preço do sorvete é R$ 5,00 cada unidade, quantos sorvetes deseja?"))
@@ -42,6 +46,7 @@ let valorAtual = quantidadeSorvetes * precoSorvete
 alert ("O valor total da sua compra é R$ " + valorAtual.toFixed(2) + ".")
 */
 
+
 /*5. Jogo de Adivinhação
 
 let numeroSecreto = 9
@@ -50,6 +55,7 @@ let numeroUsuario = parseInt(prompt("Adivinhe o número secreto de 1 a 10:"))
 alert (`O número é ${numeroSecreto}. Você chutou ${numeroUsuario}. `)
 */
 
+
 /*6. Exibição de Números
 
 let numeroUm = Number (prompt("Digite o primeiro número:"))
@@ -57,6 +63,7 @@ let numeroDois = Number (prompt("Digite o segundo número:"))
 
 alert (`Você escolheu o número ${numeroUm} e o número ${numeroDois}.`)
 */
+
 
 /*7. Conta de Restaurante
 
@@ -69,6 +76,7 @@ alert(`O valor da gorjeta é R$ ${porcentagemGorjeta.toFixed(2)}. O total a paga
 */
 
 
+
 /*8. Hora da Multiplicação
 let numeroUm = Number (prompt("Hora da multiplicação, digite o primeiro número:"))
 let numeroDois = Number (prompt("Digite o segundo número:"))
@@ -76,6 +84,7 @@ let resultado = parseFloat (numeroUm * numeroDois)
 
 alert (`Você escolheu o número ${numeroUm} e o número ${numeroDois}. O resultado é ${resultado}.`)
 */
+
 
 /*9. Previsão do Futuro
 
@@ -87,6 +96,7 @@ let anoFuturo = anoAtual + anosAdicionais;
 alert(`Câmbio aqui é do futuro ${nomeDoUsuario}! Você viajou ${anosAdicionais} anos e você está no ano ${anoFuturo}.`);
 */
 
+
 /*10. Exibição de Nota
 
 let nota = prompt("Digite a sua nota:")
@@ -95,8 +105,34 @@ alert (`Aqui está sua nota: ${nota}` )
 */
 
 
+/* Desafio: Planejador de Compras
 
+let nomeDoProduto =  prompt("O que deseja comprar?")
+let quantidadeProduto = parseInt(prompt("Quantidade?"))
+let precoProduto = parseFloat(prompt("Qual é o preço?"))
  
+let precoTotal = quantidadeProduto * precoProduto
+
+alert (`Você comprou ${nomeDoProduto} unidades de produto por R$ ${precoProduto}, totalizando R$ ${precoTotal}.`)
+console.log (`Você comprou ${nomeDoProduto} unidades de produto por R$ ${precoProduto}, totalizando R$ ${precoTotal}.`)
+
+*/
+
+
+
+//Desafio Final: Calculadora de Média
+
+
+let nomeDaDisciplina = prompt("Digite a disciplina escolar:")
+let notaProva1 = parseFloat(prompt("Digite a nota da primeira prova:"))
+let notaProva2 = parseFloat(prompt("Digite a nota da segunda prova:"))
+let notaProva3 = parseFloat(prompt("Digite a nota da terceira prova:"))
+
+let media = (notaProva1 + notaProva2 + notaProva3) / 3
+    
+alert(`Na disciplina ${nomeDaDisciplina} você obteve as notas: ${notaProva1}, ${notaProva2}, ${notaProva3}. Sua média final é ${media.toFixed(2)}.`);
+    
+    
     </script>
 </body>
 </html>
